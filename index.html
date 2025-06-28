@@ -7,45 +7,54 @@
   <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo">🐾 <span>PetTech</span></div>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="PetTech Logo" />
+      <h1>PetTech</h1>
+    </div>
     <nav>
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#"><span class="cart">🛒</span></a></li>
+        <li><a href="sobre-nosotros.html">About</a></li>
+        <li><a href="productos.html">Products</a></li>
+        <li><a href="contacto.html">Contact</a></li>
+        <li><a href="#"><img src="cart-icon.png" alt="Cart" /></a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Smart Technology for Your Pet</h1>
-      <p>Discover innovative gadgets to enhance your pet's life</p>
-      <a href="#" class="btn">Shop Now</a>
-    </div>
-    <div class="hero-image">
-      <img src="img/hero-dog.jpg" alt="Dog with feeder" />
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Smart Technology for Your Pet</h2>
+        <p>Discover innovative gadgets to enhance your pet's life</p>
+        <a href="productos.html" class="btn">Shop Now</a>
+      </div>
+      <div class="hero-img">
+        <img src="hero-dog.jpg" alt="Dog with feeder" />
+      </div>
+    </section>
 
-  <section class="products">
-    <h2>Featured Products</h2>
-    <div class="product-grid">
-      <div class="product-card">
-        <img src="img/feeder.jpg" alt="Automatic Pet Feeder" />
-        <p>Automatic Pet Feeder</p>
+    <section class="products">
+      <h3>Featured Products</h3>
+      <div class="product-grid">
+        <div class="product">
+          <img src="feeder.jpg" alt="Automatic Pet Feeder" />
+          <p>Automatic Pet Feeder</p>
+        </div>
+        <div class="product">
+          <img src="camera.jpg" alt="Pet Camera" />
+          <p>Pet Camera</p>
+        </div>
+        <div class="product">
+          <img src="gps.jpg" alt="GPS Pet Tracker" />
+          <p>GPS Pet Tracker</p>
+        </div>
       </div>
-      <div class="product-card">
-        <img src="img/camera.jpg" alt="Pet Camera" />
-        <p>Pet Camera</p>
-      </div>
-      <div class="product-card">
-        <img src="img/gps.jpg" alt="GPS Pet Tracker" />
-        <p>GPS Pet Tracker</p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PetTech. All rights reserved.</p>
+  </footer>
 </body>
 </html>
